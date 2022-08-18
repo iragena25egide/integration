@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    /*background-image: url(../login-image/Bubbles.jpg);*/
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 625px;
+    position: fixed;
+   
+}
+.div-1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    background: #fff;
+    margin: 50px;
+    animation: moving1 4s linear infinite  ;
+
+    
+}
+@keyframes moving1{
+    0%{background: #ccc; top: 0px; left:0px;}
+    25%{background: #187ef2; top: 0px; left: 200px;}
+    50%{background: rgb(54, 31, 31); top: 200px; left: 200px;}
+    75%{background: rgb(223, 81, 81); top: 200px;left: 0px;}
+    100%{background: rgb(109, 214, 109); top: 0px; left: 0px;}
+}
+.div-2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    background: #fff;
+    margin: 50px;
+    animation: moving2 4s linear infinite  ;
+
+    
+}
+@keyframes moving2{
+    0%{background: #187ef2; top: 0px; left:0px;}
+    25%{background: #ccc; top: 0px; left: 200px;}
+    50%{background: #080aaa; top: 200px; left: 200px;}
+    75%{background: #bbb; top: 200px;left: 0px;}
+    100%{background: rgb(108, 201, 108); top: 0px; left: 0px;}
+}
+.div-3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    background: #fff;
+    margin: 50px;
+    animation: moving3 4s linear infinite  ;
+
+    
+}
+@keyframes moving3{
+    0%{background: #bbb; top: 0px; left:0px;}
+    25%{background: rgb(167, 167, 7); top: 0px; left: 200px;}
+    50%{background: rgb(195, 73, 219); top: 200px; left: 200px;}
+    75%{background: rgb(153, 32, 113); top: 200px;left: 0px;}
+    100%{background: rgb(34, 0, 128); top: 0px; left: 0px;}
+}
+.div-4{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    background: #fff;
+    margin: 50px;
+    animation: moving4 4s linear infinite  ;
+
+    
+}
+@keyframes moving4{
+    0%{background: #080aaa; top: 0px; left:0px;}
+    25%{background: yellow; top: 0px; left: 200px;}
+    50%{background: rgb(19, 17, 17); top: 200px; left: 200px;}
+    75%{background: red; top: 200px;left: 0px;}
+    100%{background: green; top: 0px; left: 0px;}
+}
+.loading-logo{
+    display: flex;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    border-bottom: 10px;
+}
+.response{
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: 40px;
+    border: 0.3px solid #187ef2;
+    border-radius: 30px;
+    width: 40%;
+    height: 200px;
+    text-align: center;
+    display: none;
+}
+h1{
+   margin-left: 80px;
+   margin-top: 50px;
+    color: #187ef2;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Login{
+    width: 30%;
+    height: 400px;
+    border-radius: 25px;
+    margin-top: 25px;
+    float: right;
+    background: #fff;
+    margin-right: 40px;
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: 400;
+    box-shadow: 9px 9px 9px 9px rgb(0, 30, 48);
+}
+p{
+    margin-left: 70px;
+    margin-top: 15px;
+    
+    font-family:  sans-serif;
+}
+.Login_btn{
+    width: 40%;
+    height: 50px;
+    margin-left: 120px;
+    margin-top: 20px;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    background: #187ef2;
+    color: #fefefe;
+    font-size: large;
+    border: 1px solid #fff;
+}
+h2{
+    margin-left:72%;
+    margin-top: 30px;
+    color: #187ef2;
+    font-family:sans-serif;
+}
+.Login_btn:hover{
+    background: #030586;
+    color: white;
+    border-radius: 50px;
+}
+section{
+    margin-top: 20px;
+    margin-left: 120px;
+    color: #187ef2;
+    font-family: sans-serif;
+}
+input{
+    width: 70%;
+    color: rgb(19, 17, 17);
+    font-weight: 500;
+    height: 50px;
+    outline: none;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+    border-top:0.8px solid #187ef2;
+    border-left: 0.8px solid #187ef2;
+    border-bottom:0.8px solid #187ef2 ;
+    border-right:0.8px solid #187ef2 ;
+}
+input::placeholder{
+    font-family: sans-serif;
+    
+}
+small{
+    margin-left: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #187ef2;
+}
+a:hover{
+    color: #080aaa;
+    text-decoration: underline;
+}
+h6{
+    margin-top: 50px;
+    font-family: 'loto',sans-serif;
+    font-size: larger;
+}
